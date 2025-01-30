@@ -260,16 +260,6 @@ USAGE = """〇 **ONLY PUBLIC CHATS**
 
 __just send post/s link__
 
-〇 **MULTI POSTS**
-
-__send public posts link as explained above with formate "from - to" to send multiple messages like below__
-
-```
-https://t.me/xxxx/1001-1010
-
-https://t.me/c/xxxx/101 - 120
-```
-
 ✍️ __Note that space in between doesn't matter__
 
 [❤️ Any problem  ❤️](https://t.me/ST_Rename_Update)
