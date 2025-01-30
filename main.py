@@ -255,16 +255,5 @@ def get_message_type(msg: pyrogram.types.messages_and_media.message.Message):
 		return "Text"
 	except: pass
 
-
-USAGE = """〇 **ONLY PUBLIC CHATS**
-
-__just send post/s link__
-
-✍️ __Note that space in between doesn't matter__
-
-[❤️ Any problem  ❤️](https://t.me/ST_Rename_Update)
-"""
-
-
 # infinty polling
 bot.run()
