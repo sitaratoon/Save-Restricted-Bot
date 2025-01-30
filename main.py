@@ -256,22 +256,9 @@ def get_message_type(msg: pyrogram.types.messages_and_media.message.Message):
 	except: pass
 
 
-USAGE = """〇 **FOR PUBLIC CHATS**
+USAGE = """〇 **ONLY PUBLIC CHATS**
 
 __just send post/s link__
-
-〇 **FOR PRIVATE CHATS**
-
-__first send invite link of the chat (unnecessary if the account of string session already member of the chat)
-then send post/s link__
-
-〇 **FOR BOT CHATS**
-
-__send link with '/b/', bot's username and message id, you might want to install some unofficial client to get the id like below__
-
-```
-https://t.me/b/botusername/4321
-```
 
 〇 **MULTI POSTS**
 
@@ -285,7 +272,7 @@ https://t.me/c/xxxx/101 - 120
 
 ✍️ __Note that space in between doesn't matter__
 
-[❤️ Any problem  ❤️](@Sitaratoons_Support_bot)
+[❤️ Any problem  ❤️](https://t.me/ST_Rename_Update)
 """
 
 
