@@ -125,7 +125,7 @@ def save(client: pyrogram.client.Client, message: pyrogram.types.messages_and_me
 				username = datas[4]
 				
 				if acc is None:
-					bot.send_message(message.chat.id,f"𝐒𝐭𝐫𝐢𝐧𝐠 𝐒𝐞𝐬𝐬𝐢𝐨𝐧 𝐢𝐬 𝐍𝐨 𝐒𝐞𝐭", reply_to_message_id=message.id)
+					bot.send_message(message.chat.id,f"<b>ᴜꜱᴇ ᴛʜɪꜱ ʙᴏᴛ - @SaveRestricted01_bot</b>", reply_to_message_id=message.id)
 					return
 				try: handle_private(message,username,msgid)
 				except Exception as e: bot.send_message(message.chat.id,f"𝐄𝐫𝐫𝐨𝐫 : __{e}__", reply_to_message_id=message.id)
