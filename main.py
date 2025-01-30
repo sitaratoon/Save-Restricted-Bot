@@ -262,7 +262,7 @@ __just send post/s link__
 
 〇 **MULTI POSTS**
 
-__send public/private posts link as explained above with formate "from - to" to send multiple messages like below__
+__send public posts link as explained above with formate "from - to" to send multiple messages like below__
 
 ```
 https://t.me/xxxx/1001-1010
