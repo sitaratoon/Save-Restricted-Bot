@@ -10,4 +10,4 @@ COPY . /app
 
 EXPOSE 3000
 
-CMD flask run -h 0.0.0.0 -p 3000 & python3 main.py
+CMD gunicorn app:app & python3 main.py
