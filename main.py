@@ -255,5 +255,21 @@ def get_message_type(msg: pyrogram.types.messages_and_media.message.Message):
 		return "Text"
 	except: pass
 
+USAGE = """〇 **FOR PUBLIC CHATS**
+
+__just send post/s link__
+
+〇 **FOR BOT CHATS**
+
+__send link with '/b/', bot's username and message id, you might want to install some unofficial client to get the id like below__
+
+```
+https://t.me/b/botusername/4321
+```
+✍️ __Note that space in between doesn't matter__
+
+[❤️ Any problem ❤️](https://t.me/ST_Rename_Update)
+"""
+
 # infinty polling
 bot.run()
