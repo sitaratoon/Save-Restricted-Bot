@@ -69,7 +69,7 @@ def send_start(client: pyrogram.client.Client, message: pyrogram.types.messages_
     # Send the reply photo first
     bot.send_photo(
         chat_id=message.chat.id,
-        photo="https://graph.org/file/4e8a1172e8ba4b7a0bdfa.jpg",  # Photo link
+        photo="https://graph.org/file/ef04d7f985c62cbdb10c4-c5e5454c0488a69551.jpg",  # Photo link
         caption=f"__🦋 𝐇𝐢 **{message.from_user.mention}** 🦋 \n\nI am Save Restricted Bot, I can send you restricted content by its post link__\n\n{USAGE}",
         reply_to_message_id=message.id,
         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🫧 𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🫧", url="https://t.me/Opleech_WD")]])
