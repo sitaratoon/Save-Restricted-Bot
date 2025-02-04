@@ -1,4 +1,4 @@
-from os import getenv
+
 
 API_LOL_ID = int(getenv("API_LOL_ID", "18946488"))
 API_LOL_HASH = getenv("API_LOL_HASH", "c163d4e28e63196c3806cf3b9b2885de")
